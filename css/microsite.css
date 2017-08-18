@@ -1,0 +1,145 @@
+/** Microsite Banner **********************************************************/
+element.style {
+}
+css_qRKSpz7yiEz…czWDIRCY.css:2
+.page-title {
+    padding-top: 0.25em;
+}
+css_qRKSpz7yiEz…czWDIRCY.css:2
+h1 {
+    font-size: 235.2941%;
+}
+css_qRKSpz7yiEz…czWDIRCY.css:2
+h1, h2, h3, h4, h5, h6 {
+    padding: 0 0 0.5em;
+}
+css_qRKSpz7yiEz…czWDIRCY.css:2
+h1, h2, h3, h4, h5, h6, legend, caption {
+    font-family: "Merriweather","Georgia","Cambria","Times New Roman","Times",serif;
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+}
+.region-highlighted {
+  margin: 0 -1em 1.5em;
+}
+.region-highlighted > .block {
+  position: relative;
+}
+
+.epa-banner-field {
+  list-style: none;
+  padding: 0 1em;
+  position: relative;
+}
+.no-js .epa-banner-field > li {
+  display: none;
+}
+.no-js .epa-banner-field > li:first-child {
+  display: list-item;
+}
+.epa-banner {
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: content-box;
+  max-width: 100%;
+  min-height: 17.5882em;
+  padding-bottom: 3em;
+  width: 43em;
+}
+@media screen and (max-width: 32em) {
+  .epa-banner {
+    background: #000 !important;
+  }
+}
+@media screen and (min-width: 43em) {
+  .epa-banner-field {
+    float: left;
+    width: 75%;
+  }
+  .epa-banner {
+    padding-bottom: 3em;
+  }
+}
+
+.banner-content {
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  max-width: 30em;
+  padding: 1em;
+}
+.banner-content a {
+  color: #02bfe7;
+}
+.banner-content a:focus,
+.banner-content a:hover {
+  color: #00a6d2;
+}
+.banner-content ul {
+  list-style-type: disc;
+}
+.banner-content > :last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.slides_tabs {
+  bottom: 1em;
+  left: 2em;
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  z-index: 3;
+}
+.slides_tabs > li {
+  display: inline;
+  margin-left: .5882em;
+}
+.slides_tabs > li:first-child {
+  margin-left: 0;
+}
+.slides_tabs a {
+  background: #5b616b;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  line-height: 1;
+  margin: 0;
+  padding: 0.4706em 0.6471em 0.2941em;
+  text-decoration: none;
+}
+.slides_here a {
+  background: #0071bc;
+}
+.slides_tabs a:hover {
+  background-color: #0071bc;
+}
+
+.microsite-aside {
+  padding: 1.5em 1em 0;
+}
+.microsite-aside-content {
+  background: #e1f3f8;
+  padding: 1em;
+}
+.microsite-aside-content > :last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+@media screen and (min-width: 43em) {
+  .microsite-aside {
+    float: right;
+    padding-left: 0;
+    padding-top: 0;
+    width: 25%;
+  }
+  .microsite-aside-content {
+    min-height: 20.5882em; /* 350px */
+  }
+}
+
+.quiz-nav-container {
+  position: static;
+}
